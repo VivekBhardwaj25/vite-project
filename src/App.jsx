@@ -17,7 +17,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className="bg-[#0e0f1a] h-full w-full">
+    <div className="bg-[#0e0f1a] h-full w-full m-0 p-0 overflow-x-hidden">
 
       <nav className="bg-[#262626] z-10 h-14 w-full px-3 flex justify-between items-center">
         <div className="" data-aos="fade-down">
@@ -35,7 +35,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="mt-10 md:mx-32 w-max mx-auto">
+      <section className="mt-10 w-max mx-auto md:px-30">
         <div className="flex justify-between items-center gap-x-[900px]">
           <div className='' data-aos="fade-right">
             <img src={motion} alt="" />
@@ -157,12 +157,12 @@ function App() {
         </div>
       </section>
 
-      <section className="mt-28">
+      <section className="mt-28 flex justify-center items-center flex-col">
         <h2 className="text-[#ece3fd] text-center text-[40px] font-medium pb-10 leading-[3.9rem] font-abc" data-aos="fade-up">
           Apply On Any Section Or Enable <br /> For Whole Page
         </h2>
 
-        <div className="flex justify-center gap-x-[1.5rem] mt-12 flex-wrap">
+        <div className="flex justify-center gap-x-[1.5rem] mt-12 flex-wrap w-fit mx-auto">
           <div className="h-min w-5/12 bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% shadow-md flex flex-col gap-y-6 rounded-[18px] p-8 border border-gray-800" data-aos="fade-up">
             <p className="text-[#ece3fd] text-2xl font-abc font-medium">
               Apply On Section
@@ -190,8 +190,8 @@ function App() {
       </section>
 
 
-      <section className="mt-28 w-10/12 m-auto">
-        <div className="bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% py-10 shadow-2xl border border-gray-800  h-min rounded-[16px] flex flex-col items-center gap-y-6" data-aos="fade-up">
+      <section className="mt-28 w-max mx-auto">
+        <div className="bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% py-10 shadow-2xl border border-gray-800  h-min rounded-[16px] flex flex-col items-center gap-y-6 px-96" data-aos="fade-up">
           <p className="text-[#ece3fd] text-3xl font-abc font-medium" data-aos="fade-up">
             Supported by All Popular Browsers
           </p>
