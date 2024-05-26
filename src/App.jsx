@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="bg-[#0e0f1a] h-full w-full">
 
+      <h1 className='text-white text-xl text-center'>Vivek Bhardwaj</h1>
+
       <nav className="bg-[#262626] z-10 h-14 w-full px-3 flex justify-between items-center">
         <div className="">
           <img
@@ -26,7 +28,7 @@ function App() {
       <section className="mt-10 md:mx-32 w-max mx-auto">
         <div className="flex justify-between items-center gap-x-[900px]">
           <div>
-            <img src="src/assets/MotionArtEffect-logo.png" alt="" />
+            <img src="assets/MotionArtEffect-logo.png" alt="" />
           </div>
 
           <div>
