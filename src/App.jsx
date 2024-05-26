@@ -1,14 +1,24 @@
 import { useState } from 'react'
 import Logo from './assets/envato_market-.svg'
+import motion from './assets/MotionArtEffect-logo.png'
+import img2 from './assets/motionarteffect-img2.png'
+import img4 from './assets/motionarteffect-img4.png'
+import img1 from './assets/motionarteffect-img1.png'
+import img3 from './assets/motionarteffect-img3.png'
+import img5 from './assets/motionarteffect-img5.png'
+import img11 from './assets/motionarteffect-img11.png'
+import img10 from './assets/motionarteffect-img10.png'
+import img8 from './assets/motionarteffect-img8.png'
+import img9 from './assets/motionarteffect-img9.png'
+import img7 from './assets/motionarteffect-img7.png'
+import img6 from './assets/motionarteffect-img6.png'
 import './App.css'
 
 function App() {
 
   return (
     <div className="bg-[#0e0f1a] h-full w-full">
-
-      <h1 className='text-white text-xl text-center'>Vivek Bhardwaj</h1>
-
+      
       <nav className="bg-[#262626] z-10 h-14 w-full px-3 flex justify-between items-center">
         <div className="">
           <img
@@ -28,7 +38,7 @@ function App() {
       <section className="mt-10 md:mx-32 w-max mx-auto">
         <div className="flex justify-between items-center gap-x-[900px]">
           <div>
-            <img src="assets/MotionArtEffect-logo.png" alt="" />
+            <img src={motion} alt="" />
           </div>
 
           <div>
@@ -79,11 +89,11 @@ function App() {
         <div className="flex items-center justify-around mt-20 flex-wrap gap-y-4 gap-x-40">
           <div className="flex items-center justify-start">
             <div>
-              <img src="src/assets/motionarteffect-img2.png" alt="" />
+              <img src={img2} alt="" />
             </div>
             <div className="pl-3">
               <img
-                src="src/assets/motionarteffect-img4.png"
+                src={img4}
                 alt=""
                 className="mb-2"
               />
@@ -93,11 +103,11 @@ function App() {
 
           <div className="flex items-center justify-start">
             <div>
-              <img src="src/assets/motionarteffect-img1.png" alt="" />
+              <img src={img1} alt="" />
             </div>
             <div className="pl-3">
               <img
-                src="src/assets/motionarteffect-img4.png"
+                src={img4}
                 alt=""
                 className="mb-2"
               />
@@ -107,11 +117,11 @@ function App() {
 
           <div className="flex items-center justify-start">
             <div>
-              <img src="src/assets/motionarteffect-img3.png" alt="" />
+              <img src={img3} alt="" />
             </div>
             <div className="pl-3">
               <img
-                src="src/assets/motionarteffect-img4.png"
+                src={img4}
                 alt=""
                 className="mb-2"
               />
@@ -139,7 +149,7 @@ function App() {
 
           <div className="w-1/3 flex justify-end">
             <img
-              src="src/assets/motionarteffect-img5.png"
+              src={img5}
               className="size-1/2"
               alt=""
             />
@@ -162,7 +172,7 @@ function App() {
               to manage applications directly from your website.
             </p>
 
-            <img src="src/assets/motionarteffect-img11.png" alt="" />
+            <img src={img11} alt="" />
           </div>
 
           <div className="h-min w-5/12 bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% shadow-2xl border border-gray-800 flex flex-col gap-y-6 rounded-[18px] p-8 mt-20">
@@ -174,7 +184,7 @@ function App() {
               Embrace the power of motion and animation.
             </p>
 
-            <img src="src/assets/motionarteffect-img10.png" alt="" />
+            <img src={img10} alt="" />
           </div>
         </div>
       </section>
@@ -189,7 +199,7 @@ function App() {
             Rest assured, Motion Art is designed to be compatible with all major
             web browsers.
           </p>
-          <img src="src/assets/motionarteffect-img8.png" alt="" />
+          <img src={img8} alt="" />
         </div>
       </section>
 
@@ -208,7 +218,7 @@ function App() {
 
         <div className="flex m-auto w-max mt-14 flex-wrap gap-y-8 md:gap-x-8">
           <div className="h-min w-96 bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% px-4 py-6 rounded-xl border border-gray-800 shadow-lg flex flex-col gap-y-4 items-start">
-            <img src="src/assets/motionarteffect-img9.png" alt="" />
+            <img src={img9} alt="" />
             <p className="text-[#ece3fd] text-3xl font-abc font-medium text-wrap">
               Light Weight
             </p>
@@ -218,7 +228,7 @@ function App() {
           </div>
 
           <div className="h-min w-96 bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% px-4 py-6 rounded-xl border border-gray-800 shadow-lg flex flex-col gap-y-4 items-start">
-            <img src="src/assets/motionarteffect-img7.png" alt="" />
+            <img src={img7} alt="" />
             <p className="text-[#ece3fd] text-3xl font-abc font-medium text-wrap">
               100% Responsive
             </p>
@@ -228,7 +238,7 @@ function App() {
           </div>
 
           <div className="h-min w-96 bg-transparent bg-gradient-to-b from-[#0D061F] from-0% to-[#251E35] to-100% px-4 py-6 rounded-xl border border-gray-800 shadow-lg flex flex-col gap-y-4 items-start">
-            <img src="src/assets/motionarteffect-img6.png" alt="" />
+            <img src={img6} alt="" />
             <p className="text-[#ece3fd] text-3xl font-abc font-medium text-wrap">
               User Friendly Interface
             </p>
